@@ -1,6 +1,6 @@
-//probleme avec Java Scrpit
+var menuBurgeur = document.getElementsByClassName('btn-navigation');
 
-//ERROR: 'alert' is not defined. [no-undef]	alert("test js");
-
-alert("test js");
-
+menuBurgeur.click = function(){
+    
+    alert('test');
+};
