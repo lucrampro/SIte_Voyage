@@ -15,6 +15,10 @@ h1 {
     font-size: 3.5rem;
 }
 
+h2{    color: #072b3a;
+    font-family: 'Playfair Display SC', serif;
+    }
+
 ul {
 
     list-style: none;
@@ -178,9 +182,6 @@ margin-left: 43%;
 
 .cthText h2{
     
-    
-    color: #072b3a;
-    font-family: 'Playfair Display SC', serif;
     font-size: 4rem;
     
 }
@@ -238,22 +239,72 @@ margin-left: 43%;
 .luxuryApartment{
     
     
-    width:100% ;
+    max-width:100% ;
+    display: block;
+    text-align: center;
+  
+}
+
+.luxuryApartment img{
     
+    
+  width: 1600px;
+   height: 1200px
   
 }
 
 
+/*///////// SEE YOUR HOME TILTE //////////*/
 
 
 
+.seeYourHomeTitle{
+     background: url("images/feuille_background.svg") no-repeat;
+    height: 200px;
+}
+
+.seeYourHomeTitle h2{
+    
+    font-size: 4rem;
+    margin-left: 50px;
+}
 
 
+/*///////// SEE YOUR HOME //////////*/
 
 
+.seeYourHome{
+    
+    background: url('images/feuille_background.svg') #f6f7f5;
+    margin: 2%
+    
+    
+    
+}
 
+.seeYourHome .villa{
+    
+    grid-column: 8/11;
+    margin-left: 78px;
+    grid-row: 1/5;
+    margin-top: 500px;
+}
 
+.seeYourHome .sunset{
+    
+    width: 600px;
+    grid-column: 2/12;
+    grid-row: 1
+        
+}
+.seeYourHome .waterHouse{
 
+    width: 900px;
+   
+    grid-column: 1/12;
+     grid-row: 1;
+    margin-left: 600px;
+}
 
 
 
