@@ -4,7 +4,12 @@ body {
     background: #fefefe;
     color: #353535;
 }
-
+nav{
+    
+    position: fixed;
+    width: 100%;
+    background: #fefefe;
+}
 h1 {
 
     font-size: 3.5rem;
@@ -138,10 +143,100 @@ margin-left: 43%;
     grid-row: 4/6;
    color: white;
     text-transform: uppercase;
-/*    text-shadow: 1px 1px 1px #343434;*/
-    
+    text-shadow: 0.5px 0.5px 3px  #343434;
+    font-size: 5rem;
 
 }
+
+
+
+/*////////// COME TO HOME //////////*/
+
+
+
+.comeToHome{
+    
+    background: url("images/feuille_background.svg") no-repeat;
+}
+
+
+.cthText{
+    
+    grid-column: 2/6;
+    grid-row: 2/7;
+    background: #fefefe;
+    margin: 50px 0 0 50px;
+    padding: 10px 10px 10px 50px;
+    
+}
+
+.cthText h2{
+    
+    
+    color: #072b3a;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 4rem;
+    
+}
+
+
+
+
+.cthText h2 span {
+    
+    display: block;
+    color: #43c6bf;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+
+.cthText p  {
+    
+
+    color: #8c8a8a;
+    font-size: 1.2rem;
+    padding-right: 150px;
+    
+   
+}
+
+
+.cthHome  {
+    grid-column: 7/12;
+    grid-row: 1/10;
+    max-width: 800px;
+    margin-top: 100px;
+    
+   
+}
+
+
+
+.cthChild  {
+    grid-column: 1/12;
+    grid-row: 7/12;
+    max-width: 1000px;
+    margin: 100px 0 0 100px;
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
