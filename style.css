@@ -160,6 +160,12 @@ margin-left: 43%;
 }
 
 
+.comeToHome{
+    
+      grid-template-rows: repeat(10,1fr);
+}
+
+
 .cthText{
     
     grid-column: 2/6;
@@ -226,7 +232,16 @@ margin-left: 43%;
 
 
 
+/*/////////// LUXURY APARTMENT //////////*/
 
+
+.luxuryApartment{
+    
+    
+    width:100% ;
+    
+  
+}
 
 
 
