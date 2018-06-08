@@ -11,7 +11,7 @@ nav {
     height: 150px;
     width: 100%;
     background: #fefefe;
-    
+
 }
 
 h1 {
@@ -57,7 +57,7 @@ nav ul {
     padding: 10px;
     width: 100%;
     display: table;
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 nav ul li {
@@ -72,7 +72,7 @@ nav ul li {
     /*    position: absolute;*/
     cursor: pointer;
     display: table-cell;
-width: 20%;
+    width: 20%;
 }
 
 
@@ -86,6 +86,8 @@ width: 20%;
     margin-top: 3px;
 
 }
+
+
 
 .logo {
 
@@ -120,7 +122,6 @@ width: 20%;
 .menu-navigation {
     position: fixed;
     left: 0;
-    padding: 0 30px;
     background: #333;
     width: 100%;
     height: 90%;
@@ -139,15 +140,19 @@ width: 20%;
 }
 
 .menu-navigation ul {
-    position: absolute;
-    top: 45%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+
+    width: 500px;
+    height: 80%;
+    margin: auto;
+    padding: 30%;
+
 }
 
 .menu-navigation ul li {
-    margin: 20px auto;
-
+    
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
 }
 
 .menu-navigation ul li a {
@@ -155,7 +160,7 @@ width: 20%;
     color: #fefefe;
     text-transform: uppercase;
     text-decoration: none;
-    text-align: right;
+    text-align: center;
     font-size: 1.5rem;
     letter-spacing: 0.5em;
 
