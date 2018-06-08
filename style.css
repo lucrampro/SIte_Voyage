@@ -8,8 +8,10 @@ body {
 nav {
 
     position: fixed;
+    height: 150px;
     width: 100%;
     background: #fefefe;
+    
 }
 
 h1 {
@@ -25,11 +27,11 @@ h2 {
     line-height: 1;
 }
 
-p{
-      color: #343434;
+p {
+    color: #343434;
     font-size: 1.2rem;
     padding-right: 150px;
-    
+
 }
 
 ul {
@@ -53,7 +55,9 @@ ul {
 nav ul {
 
     padding: 10px;
-
+    width: 100%;
+    display: table;
+        box-sizing: border-box;
 }
 
 nav ul li {
@@ -66,9 +70,9 @@ nav ul li {
 .btn-navigation {
 
     /*    position: absolute;*/
-    float: left;
     cursor: pointer;
-
+    display: table-cell;
+width: 20%;
 }
 
 
@@ -86,9 +90,11 @@ nav ul li {
 .logo {
 
     margin: auto;
-    float: left;
     text-align: center;
-    margin-left: 43%;
+    width: 50%;
+    display: table-cell;
+
+
 
 }
 
@@ -103,15 +109,11 @@ nav ul li {
 
 .contact-nav {
 
-    float: right
+    width: 20%;
+    display: table-cell;
+    text-align: right;
 }
 
-.btn-navigation,
-.contact-nav {
-
-    margin-top: 30px;
-
-}
 
 /*////////// MENU DE NAVIGATION //////////*/
 
@@ -120,20 +122,19 @@ nav ul li {
     left: 0;
     padding: 0 30px;
     background: #333;
-    width: 20%;
-    height: 100%;
-/*
-    transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-    transition: transform .2s ease-in-out;
-*/
+    width: 100%;
+    height: 90%;
+    margin-top: 150px;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transition: transform .9s ease-in-out;
 
 }
 
-.menu-navigation .IsOpen{
+.menu-navigation.isOpen {
 
-    transform: translateY(0%);
-    -webkit-transform: translateY(0%);
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
 
 }
 
@@ -297,7 +298,7 @@ nav ul li {
     height: 1000px;
     grid-row: 1;
     margin-left: 70px;
-    
+
 }
 
 .seeYourHome .sunset {
@@ -338,22 +339,19 @@ nav ul li {
 
 /*////////// SUN CAILLOU /////////*/
 
-.sunCaillou{
-    
+.sunCaillou {
+
     max-width: 100%;
     display: block;
     text-align: center;
 
-    
+
 }
-.sunCaillou img{
-    
-    
+
+.sunCaillou img {
+
+
     width: 1850px;
     height: 1200px;
     margin-bottom: 20px;
 }
-
-
-
-

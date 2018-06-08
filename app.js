@@ -1,12 +1,19 @@
-var btnBurgeur = document.getElementsByClassName("btn-navigation");
-var navigationMenu = document.getElementsByClassName("menu-navigation")
-
-function(){
+(function(){
+    var navMenu = document.querySelector(".menu-navigation");
+    var btnBurger = document.querySelector(".btn-navigation");
+    console.log(btnBurger);
     
-    btnBurgeur.click(function(){
+    btnBurger.addEventListener('click', function() {
+      if( navMenu.classList.contains("isOpen")){
+          
+          navMenu.classList.remove("isOpen");
+      }
         
-        navigationMenu.toggleClass("isOpen")
-        
-    };
+        else if(
+         
+            navMenu.classList.add("isOpen");
+            
+        )
+    })
     
-};
+})();
