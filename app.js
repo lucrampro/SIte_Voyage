@@ -13,11 +13,11 @@
           navMenu.classList.remove("isOpen");
       }
         
-        else(
+        else{
          
             navMenu.classList.add("isOpen");
             
-        )
+        }
     })
     
 //    MENU BURGER
