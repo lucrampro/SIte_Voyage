@@ -58,6 +58,7 @@ nav ul {
     width: 100%;
     display: table;
     box-sizing: border-box;
+
 }
 
 nav ul li {
@@ -83,7 +84,7 @@ nav ul li {
     width: 30px;
     height: 3px;
     background: #43c6bf;
-    margin-top: 3px;
+    margin-top: 5px;
 
 }
 
@@ -126,11 +127,9 @@ nav ul li {
     width: 50%;
     height: 90%;
     margin-top: 150px;
-    border-right: solid 1px #1d808c;
-    border-top: solid 1px #1d808c;
     transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
-    transition: transform 0.8s ease-in-out;
+    transition: transform 0.6s ease-in-out;
 
 }
 
@@ -332,7 +331,7 @@ nav ul li {
     background: #fefefe;
     margin-top: 355px;
     width: 580px;
-    margin-left: 310px;
+    margin-left: 270px;
     padding-left: 20px;
 }
 
@@ -351,6 +350,7 @@ nav ul li {
     max-width: 100%;
     display: block;
     text-align: center;
+    position: relative;
 
 
 }
@@ -358,7 +358,53 @@ nav ul li {
 .sunCaillou img {
 
 
-    width: 1850px;
+    width: 1650px;
     height: 1200px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
+
+
+
+
+.sunCaillou a {
+
+position: absolute;
+left: 40%;
+    top: 45%;
+    
+border: solid 3px #fefefe;
+    color: #fefefe;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    height: 30px;
+    width: 300px;
+    padding-top: 15px;
+    opacity: 0.9;
+    transition: 0.5s;
+    letter-spacing: 5px;
+    font-weight: 900;
+ 
+}
+
+
+
+.sunCaillou a:hover {
+background: #fefefe;
+    color: #072b3a;
+    opacity: 0.9;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
