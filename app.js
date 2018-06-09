@@ -1,7 +1,7 @@
 (function(){
     var navMenu = document.querySelector(".menu-navigation");
     var btnBurger = document.querySelector(".btn-navigation");
-    var test = document.querySelector(".test");
+var lien = document.querySelector("a");
     
     
     
@@ -22,12 +22,11 @@
     
 //    MENU BURGER
     
-    test.addEventListener("click", function(){
-        
-        
-         navMenu.classList.remove("isOpen");
-        
-    })
+lien.addEventListener("click", function(){
+    
+ navMenu.classList.remove("isOpen");   
+    
+})
     
     
 })();
