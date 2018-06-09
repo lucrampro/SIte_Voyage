@@ -3,6 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: #fefefe;
     color: #353535;
+
 }
 
 nav {
@@ -73,7 +74,7 @@ nav ul li {
     /*    position: absolute;*/
     cursor: pointer;
     display: table-cell;
-    width: 20%;
+
 }
 
 
@@ -94,7 +95,7 @@ nav ul li {
 
     margin: auto;
     text-align: center;
-    width: 50%;
+    width: 100%;
     display: table-cell;
 
 
@@ -109,13 +110,6 @@ nav ul li {
 
 }
 
-
-.contact-nav {
-
-    width: 20%;
-    display: table-cell;
-    text-align: right;
-}
 
 
 /*////////// MENU DE NAVIGATION //////////*/
